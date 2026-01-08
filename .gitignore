@@ -19,6 +19,21 @@ lerna-debug.log*
 .env.test
 .env.production
 
+# Monorepo builds and deps
+**/dist
+**/node_modules
+
+# Next.js
+**/.next
+**/out
+
+# Tooling
+.turbo
+*.tsbuildinfo
+
+# IDE
+.project
+
 # temp directory
 .temp
 .tmp
